@@ -3,11 +3,44 @@
     <head>
            <meta name="viewport" content="width=device-width, initial-scale=1">
            <link rel="stylesheet" href="style.css">
+	<style>
+
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+  /* Create three equal columns that floats next to each other */
+.column {
+	 background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.0), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+  
+    float: left;
+    width: 900px;
+    margin: 10px;
+    padding: 15px;
+   
+  }
+   .column img{
+	width: 100%;
+	height: auto;
+
+}
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+  }
+</style>
 
     </head>
     <body>
         <ul>
-            <li style = "float:left;"><a style="color: orange;">ATLANTA CODING </a></li>
+            <li style = "float:left;"><a style="color: orange;">MOON <span style = "color: blue">CODING</span> </a></li>
             <li><a class="active" href="#">RATES</a></li>
             <li><a href="#news">SERVICES</a></li>
             <li><a href="#">ABOUT US</a></li>
@@ -16,41 +49,45 @@
 
           <div class="hero-image">
             <div class="hero-text">
-              <h1 style="font-size:50px; border-bottom: 2px solid yellow;">The Atlanta Coding</h1>
+              <h1 style="font-size:50px; border-bottom: 2px solid yellow;">The MOON Coding</h1>
               <h3>We are Website Developers</h3>
               <button>Hire Us</button>
             </div>
           </div>
           <section>
               <div class = "mission">
-                  <p>Our mission is to build beautiful websites at affordable price.</p>
+                  <p>Our mission is to build professional and responsive websites at affordable price.</p>
                   <button>Website For $99</button>
               </div>
 
               <div class="row">
                   <h1 style="color: green; padding-left: 40px;">RECENT PROJECTS</h1>
-                  <div class="column">
-                      <h1 style="padding-left: 20px; text-shadow: 2px 2px green;">ST. NELSON KIDS SCHOOL</h1>
-                      <P style="text-align: justify; padding-left: 20px; color: white; ">It is is a food delivery service application with the functionalities: Foodies will order take-out from a local restaurant, then use Foodar to find a Driver to pick up and deliver it to them. Delivery fees will be calculated based on distance driven, plus a base fee. Users must register a card to autopay drivers the approved amount. But banner is now a static one with a hero text at the centre.
-                        </P>
-                  </div>
+                  
+		 <div class = "column" style = "margin-left: 30px;">
+                      
+                       		<img src="screen.png" width = "450px">
+			   <div class = container>
+				<h1 style= "text-shadow: 2px 2px green;">FOODAR</h1>	
+				<p>It is is a food delivery service application with the functionalities: Foodies will order take-out from a local restaurant, then use Foodar to find a Driver to pick up and deliver it to them. Delivery fees will be calculated based on distance driven, plus a base fee. Users must register a card to autopay drivers the approved amount. But banner is now a static one with a hero text at the centre.
+                        	</p>
+			   </div>	
+                      
+		  </div>  
                 
-                  <div class="column">
-                       <img id = "myimage" src="shot1.1.png" height="380px" width = "900px"  style="border: 2px solid white;">
-                             
-                  </div>
+                  <div class = "column">
+			
+                       		<img src="shot1.1.png" width = "450px">
+			   <div class = container>
+				<h1 style="padding-left: 20px; text-shadow: 2px 2px green;">ST. NELSON KIDS SCHOOL</h1>	
+				<p>It is is a food delivery service application with the functionalities: Foodies will order take-out from a local restaurant, then use Foodar to find a Driver to pick up and deliver it to them. Delivery fees will be calculated based on distance driven, plus a base fee. Users must register a card to autopay drivers the approved amount. But banner is now a static one with a hero text at the centre.
+                        	</p>
+			   </div>	
+                           
+                 </div>
                   
-                  <div class="row">
-                    <div class="column">
-                      <img id = "myimage" src="screen.png" height="380px" width = "900px"  style="border: 2px solid white;">
-                    </div>
-                  
-                    <div class="column">
-                      <h1 style="text-shadow: 2px 2px green;">FOODAR</h1>
-                    <P style="text-align: justify; color: white; padding-right: 20px;">It is is a food delivery service application with the functionalities: Foodies will order take-out from a local restaurant, then use Foodar to find a Driver to pick up and deliver it to them. Delivery fees will be calculated based on distance driven, plus a base fee. Users must register a card to autopay drivers the approved amount. But banner is now a static one with a hero text at the centre.
-                      </P>
+               
                                
-                    </div>
+               </div>
                     
                     <div class="box">
                       <h1 style="color: white;">abc</h1>
@@ -79,8 +116,8 @@
                 <div class="column1" style="text-align: center;">
                     <h4>SITE MAP</h4>
                     <p><a href="index.html" style="text-decoration: none;">Home</a></p>
-                    <P><a href="register.html" style="text-decoration: none;">About Us</a></P>
-                    <p><a href = "about.html" style="text-decoration: none;">Services</a></p>
+                    <P><a href="about.html" style="text-decoration: none;">About Us</a></P>
+                    <p><a href = "services.html" style="text-decoration: none;">Services</a></p>
                 </div>
         
                 <div class="column1" style="text-align: center;">
@@ -91,7 +128,7 @@
                 </div>
         
                 <div class="column1" style="text-align: center;">
-                    <h4 style="color: orange;">ATLANTA CODING:)</h4>
+                    <h4 style="color: orange;">MOON <span style ="color: blue">CODING:)</span></h4>
                 </div>
                 
         
